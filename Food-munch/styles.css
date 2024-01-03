@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* ... (existing code) ... */
+/* Style for menu item cards */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Style for the hero section */
+.hero {
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Style for the contact form */
+.contact {
+    background-color: #e9ecef;
+    padding: 60px 0;
+}
+
+/* Responsive spacing utility classes */
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
